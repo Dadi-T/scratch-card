@@ -4,7 +4,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 export default function Accordian({ title, children }) {
   return (
-    <section className="sm:my-4  ">
+    <section className="my-4  ">
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           {title}

@@ -1,8 +1,8 @@
 import Accordian from "../Misc/Accordian";
 export default function FAQ() {
   return (
-    <div className=" w-3/4">
-      <h2 className="text-center">FAQ</h2>
+    <div className=" sm:w-3/4">
+      <h2 className="text-center text-5xl">FAQ</h2>
       <Accordian title="How can I make an order ?">
         <div>
           <p>

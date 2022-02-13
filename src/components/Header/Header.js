@@ -6,7 +6,7 @@ export default function Header() {
       url: "/find-seller",
     },
     {
-      name: "Demands for products",
+      name: "Product demands",
       url: "/products-demand",
     },
     {
