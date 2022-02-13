@@ -82,9 +82,15 @@ export default function Body() {
         data={sellers}
         showDetails={false}
       />
-      <Showcase />
-      <WhyUsBanner />
-      <FAQ />
+      <div className="my-4">
+        <Showcase />
+      </div>
+      <div className="my-4">
+        <WhyUsBanner />
+      </div>
+      <div className="flex justify-center ">
+        <FAQ />
+      </div>
     </div>
   );
 }
